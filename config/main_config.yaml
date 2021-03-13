@@ -1,0 +1,45 @@
+COMMON: &common #标识
+  DEBUG: False
+  SECRET_KEY: insecure
+  # 页码设置
+  DEFAULT_PAGE_INDEX: 1
+  DEFAULT_PAGE_SIZE: 10
+
+  # 响应消息
+  RESPONSE_MESSAGE: ./config/msg.yaml
+
+  # 日志配置文件路径
+  LOGGING_CONFIG_PATH: ./config/logging.yaml
+  # 日志文件存放位置
+  LOGGING_PATH: ./logs
+
+  # redis配置
+  REDIS_EXPIRE: 60*60
+  REDIS_HOST: 127.0.0.1
+  REDIS_PORT: 6379
+  REDIS_DB: 1
+
+
+
+DEVELOPMENT: &development
+  <<: *common # 继承common，没有重新定义的变量，使用common变量值
+
+  # 开发测试模式数据库连接 TODO::记得部署时更改为开发测试模式数据库
+  SQLALCHEMY_DATABASE_URI: 'mysql+pymysql://test:test@192.168.176.128:3306/ehang?charset=utf8mb4'
+  SQLALCHEMY_TRACK_MODIFICATIONS: False
+
+  DEBUG: True
+
+STAGING: &staging
+  <<: *common
+  SECRET_KEY: sortasecure
+
+PRODUCTION: &production
+  <<: *common
+
+  # 生产模式数据库连接 TODO::记得部署时更改为生产测试模式数据库
+  SQLALCHEMY_DATABASE_URI: 'mysql+pymysql://test:test@192.168.176.128:3306/ehang?charset=utf8mb4'
+  SQLALCHEMY_TRACK_MODIFICATIONS: False
+
+  SECRET_KEY: mdd1##$$%^!DSA#FDSF
+  REDIS_HOST: flask_redis

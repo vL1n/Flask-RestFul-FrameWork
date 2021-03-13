@@ -1,0 +1,30 @@
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 302-250-392
+127.0.0.1 - - [13/Mar/2021 22:50:16] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Mar/2021 22:50:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Mar/2021 22:50:19] "[35m[1mGET /unifiedResponse HTTP/1.1[0m" 500 -
+127.0.0.1 - - [13/Mar/2021 22:50:19] "[37mGET /unifiedResponse?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Mar/2021 22:50:19] "[37mGET /unifiedResponse?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Mar/2021 22:50:19] "[37mGET /unifiedResponse?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Mar/2021 22:50:19] "[37mGET /unifiedResponse?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Mar/2021 22:50:19] "[37mGET /unifiedResponse?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Mar/2021 22:50:19] "[37mGET /unifiedResponse?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+ * Detected change in '/Users/vl1n/Desktop/Framework/Flask-FrameWork/app/middleware/middlewares.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 302-250-392
+127.0.0.1 - - [13/Mar/2021 22:51:03] "[35m[1mGET /unifiedResponse HTTP/1.1[0m" 500 -
+127.0.0.1 - - [13/Mar/2021 22:51:03] "[37mGET /unifiedResponse?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Mar/2021 22:51:03] "[37mGET /unifiedResponse?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Mar/2021 22:51:03] "[37mGET /unifiedResponse?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Mar/2021 22:51:03] "[37mGET /unifiedResponse?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+ * Detected change in '/Users/vl1n/Desktop/Framework/Flask-FrameWork/app/utils/auth.py', reloading
+ * Restarting with stat
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 302-250-392
+127.0.0.1 - - [13/Mar/2021 22:52:53] "[37mGET /unifiedResponse HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Mar/2021 22:53:02] "[37mGET /unifiedResponse HTTP/1.1[0m" 200 -
